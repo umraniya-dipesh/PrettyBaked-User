@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.prettybakeduser">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PrettyBakedUser"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".BookingHistorySubCatActivity"></activity>
+        <activity android:name=".BookingDetailsActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SuccesActivity" />
+        <activity android:name=".ShippingActivity" />
+        <activity android:name=".BookingDActivity" />
+        <activity android:name=".CityActivity" />
+        <activity android:name=".ViewCartActivity" />
+        <activity android:name=".SubSubCategoryActivity" />
+        <activity android:name=".ListUser" />
+        <activity
+            android:name=".HomeScreenMainActivity"
+            android:label="@string/title_activity_home_screen_main"
+            android:theme="@style/Theme.PrettyBakedUser.NoActionBar" />
+        <activity android:name=".CheckActivity" />
+        <activity android:name=".AskingPageActivity" />
+        <activity android:name=".AboutUsActivity" />
+        <activity android:name=".SplashScreen"></activity>
+        <activity android:name=".SubcategoryActivity" />
+        <activity android:name=".ForgotPassActivity" />
+        <activity android:name=".ResigrationActivity" />
+        <activity android:name=".HomeScreen" />
+        <activity android:name=".LoginActivity" />
+    </application>
+
+</manifest>

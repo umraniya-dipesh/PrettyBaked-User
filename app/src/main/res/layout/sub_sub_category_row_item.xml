@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardUseCompatPadding="true"
+    android:elevation="5dp"
+    app:cardCornerRadius="15dp">
+
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/ivSubSubCatimage"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:foregroundGravity="center"
+            android:scaleType="fitXY"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/tvSubSubCategory"
+            android:layout_marginTop="305dp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:hint="Name of cake"
+            android:textSize="30dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="370dp"
+            android:layout_marginStart="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Rs:-"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_marginTop="360dp"
+            android:layout_marginStart="60dp"
+            android:id="@+id/tvSubSubCategoryPrice"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:hint="2000"
+            android:textSize="30dp"
+            android:textStyle="bold"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#E91E63"
+            android:layout_marginTop="410dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="420dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textSize="30dp"
+            android:layout_marginStart="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="Description"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="470dp"
+            android:fontFamily="@font/b"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_marginStart="20dp"
+            android:text="The flavours of this delicious cake with your mouth smudged with chocolate. It is a cake that will melt with every bite and will leave you enchanted by its taste. If you are looking for a cake that can heighten the joy of birthday or anniversary, then this cake is a great deal!
+ Mother, Girlfriend, Boyfriend, Son, Daughter, Brother in law, Sister in Law, Mother in Law, Father in Law, Boss, Teacher, Doctor, Nurse"/>
+
+        <Button
+            android:id="@+id/btnaddtocart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/b"
+            android:background="#32CD32"
+            android:layout_alignParentBottom="true"
+            android:text="Add To Cart" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
+
+
+
+
+
+</LinearLayout>

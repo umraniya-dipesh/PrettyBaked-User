@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResigrationActivity"
+    android:orientation="vertical"
+    android:background="@drawable/cakeback3">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="150dp"
+        android:gravity="center"
+        android:text="REGISTRATION"
+        android:fontFamily="@font/b"
+        android:textColor="@color/colorAccent"
+        android:textSize="40dp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        >
+
+        <EditText
+            android:id="@+id/etuser_name"
+            android:layout_width="316dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/et_bg"
+            android:fontFamily="@font/b"
+            android:inputType="text"
+            android:hint="Name"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/darkgrey"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/etuser_address"
+            android:background="@drawable/et_bg"
+            android:textColor="@color/black"
+            android:textColorHint="@color/darkgrey"
+            android:fontFamily="@font/b"
+            android:layout_width="316dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:inputType="text"
+            android:hint="Address"
+            android:padding="10dp"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/etuser_email"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/et_bg"
+            android:textColor="@color/black"
+            android:textColorHint="@color/darkgrey"
+            android:fontFamily="@font/b"
+            android:layout_width="316dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="E-mail"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/etuser_mobile"
+            android:layout_width="316dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/et_bg"
+            android:fontFamily="@font/b"
+            android:hint="Phone Number"
+            android:inputType="number"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/darkgrey"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/etuser_password"
+            android:layout_width="316dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/et_bg"
+            android:fontFamily="@font/b"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/darkgrey"
+            android:textSize="20dp" />
+
+        <RadioGroup
+            android:layout_marginBottom="10dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <RadioButton
+                android:id="@+id/rbfemale"
+                android:buttonTint="@color/black"
+                android:textColor="@color/black"
+                android:textSize="19dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female"/>
+
+            <RadioButton
+                android:id="@+id/rbmale"
+                android:buttonTint="@color/black"
+                android:textColor="@color/black"
+                android:textSize="19dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male" />
+        </RadioGroup>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnSignup"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:fontFamily="@font/b"
+        android:text="REGISTER"
+        android:textColor="@color/black" />
+</LinearLayout>
